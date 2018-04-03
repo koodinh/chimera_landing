@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yera</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/masonry.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="http://localhost:35729/livereload.js"></script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+</head>
+
+<body>    
+
+    <div id="content" class="intro-content">
+        <video width="100%" height="" controls autoplay>
+            <source src="assets/video/intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="home.html">
+            <strong>S</strong><b>Skip</b> move home page
+            <p>Click to go to the home page</p>
+        </a>
+    </div>
+    
+    <script>
+        $('#content.intro-content').mousemove(function() {
+           $('.intro-content a').css({
+                opacity: 1,
+           });
+        });
+        $('#content.intro-content').mouseover(function() {
+            var bg_hide = function(){
+                $('.intro-content a').css({
+                    opacity: 0,
+                });
+            };
+            setTimeout(bg_hide, 2000);
+        });
+        var bg_last = function(){
+            $('.intro-content a').addClass('show');
+        };
+        setTimeout(bg_last, 6000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yera</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/masonry.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="http://localhost:35729/livereload.js"></script>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+</head>
+
+<body>
+
+    <div id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="logo">
+                    <a class="navbar-brand" href="">
+                        <img src="assets/img/yera.png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggle" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="active" href="">Cart</a>
+                    </li>
+                    <li class="navica">
+                        <button class="cat-menu-btn" href="javascript:void(0)">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <div class="cat-menu">
+                            <button class="cat-menu-btn"><i class="material-icons">close</i></button>
+                            <ul>
+                                <li>
+                                    <a class="active" href="shop.html">All</a>
+                                    <div class="bg-cat"><img src="assets/img/cover/c14.jpg" alt=""></div>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Gem</a>
+                                    <div class="bg-cat"><img src="assets/img/cover/c15.jpg" alt=""></div>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Klasik</a>
+                                    <div class="bg-cat"><img src="assets/img/cover/c16.jpg" alt=""></div>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Slined Shaft</a>
+                                    <div class="bg-cat"><img src="assets/img/cover/c8.jpg" alt=""></div>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Stellis</a>
+                                    <div class="bg-cat"><img src="assets/img/cover/c17.jpg" alt=""></div>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Module Two</a>
+                                    <div class="bg-cat"><img src="assets/img/cover/c12.jpg" alt=""></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-more left">
+        <ul>
+            <li><span>Share</span></li>
+            <li><a class="fb" href="login.html">Login<i class="fb material-icons">fiber_manual_record</i></a></li>
+            <li><a class="pin" href="register.html">Register<i class="gg material-icons">fiber_manual_record</i></a></li>
+        </ul>
+    </div>
+
+    <div class="nav-more right">
+        <ul>
+            <li>
+                <a class="search-btn" href="javascript:void(0)"><i class="material-icons">search</i></a>
+                <div class="search-modal">
+                    <button class="search-btn"><i class="material-icons">close</i></button>
+                    <form action="" class="container">
+                        <input type="text" placeholder="Search Product In Here...">
+                    </form>
+                </div>
+            </li>
+            <li>
+                <a id="backtop" href="javascript:void(0)"><i class="material-icons">arrow_upward</i></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    
+    <div id="content" class="cart-content">
+        <div class="container">
+            <div class="indexing">
+                <p class="name">Checkout</p>
+                <p>Payment for your cart</p>
+            </div>
+            <div id="owl-cart" class="core col-sm-10">
+                <div class="owl-steps">
+                    <div class="step">
+                        <p>Billing Address</p>
+                        <span>Fill in your details</span>
+                        <form class="row" action="">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <p class="col-sm-6">
+                                        <label for="">First name*</label>
+                                        <input type="text" placeholder="First name*">
+                                    </p>
+                                    <p class="col-sm-6">
+                                        <label for="">Last name*</label>
+                                        <input type="text" placeholder="Last name*">
+                                    </p>
+                                </div>
+                                <label for="">Company name</label>
+                                <input type="text" placeholder="Company name">
+                                <div class="row">
+                                    <p class="col-sm-7">
+                                        <label for="">Email*</label>
+                                        <input type="text" placeholder="Email*">
+                                    </p>
+                                    <p class="col-sm-5">
+                                        <label for="">Phone*</label>
+                                        <input type="text" placeholder="Phone*">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-offset-1 col-sm-5">
+                                <label for="">Address*</label>
+                                <input type="text" placeholder="Address*">
+                                <label for="">Postcode / zip</label>
+                                <input type="text" placeholder="Postcode / zip">
+                                <label for="">Town / city*</label>
+                                <input type="text" placeholder="Town / city*">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="step">
+                        <p>Shipping Address</p>
+                        <span>Fill in your details</span>
+                        <div class="row">
+                            <form class="" action="">
+                                <div class="col-sm-5">
+                                    <input type="text" placeholder="Coupon code">
+                                    <label for="">Order note</label>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Order note"></textarea>
+                                </div>
+                                <div class="col-sm-offset-1 col-sm-6">
+                                    <label for="">Full name</label>
+                                    <input type="text" placeholder="Full name">
+                                    <label for="">Company name</label>
+                                    <input type="text" placeholder="Company name">
+                                    <label for="">Address*</label>
+                                    <input type="text" placeholder="Address*">
+                                    <label for="">Postcode / zip</label>
+                                    <input type="text" placeholder="Postcode / zip">
+                                    <label for="">Town / city*</label>
+                                    <input type="text" placeholder="Town / city*">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="step coupon-code">
+                        <p>Apply Coupon</p>
+                        <span>Forgot about your discount?</span>
+                        <div class="row">
+                            <form class="col-sm-4" action="">
+                                <input type="text" placeholder="Coupon code">
+                                <button type="Submit">Apply Coupon</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <p>Review your order</p>
+                        <span>4 items in your cart</span>
+                        <div class="total-product">
+                            <ul>
+                                <li class="row">
+                                    <div class="col-sm-5">
+                                        <img src="assets/img/products/p10.jpg" alt="">
+                                        <a href="detail-product.html">New Colection</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="price">$ 23</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="spin1">
+                                            <span><i class="material-icons">remove</i></span>
+                                            <input value="1" maxlength="2" />
+                                            <span><i class="material-icons">add</i></span>
+                                        </div>
+
+                                        <script>
+                                            $(document).ready(function($) {
+                                                var spins = document.getElementsByClassName("spin1");
+                                                for (var i = 0, len = spins.length; i < len; i++) {
+                                                    var spin = spins[i],
+                                                    span = spin.getElementsByTagName("span"),
+                                                    input = spin.getElementsByTagName("input")[0];
+
+                                                    input.onchange = function() { input.value = +input.value || 1; };
+                                                    span[0].onclick = function() { input.value = Math.max(1, input.value - 1); };
+                                                    span[1].onclick = function() { input.value -= -1; };
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="count-price">$ 132</p>
+                                    </div>
+                                    <button class="close-select">
+                                        <i class="material-icons">close</i>
+                                    </button>
+                                </li>
+                                <li class="row">
+                                    <div class="col-sm-5">
+                                        <img src="assets/img/products/p12.jpg" alt="">
+                                        <a href="detail-product.html">New Colection</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="price">$ 23</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="spin2">
+                                            <span><i class="material-icons">remove</i></span>
+                                            <input value="1" maxlength="2" />
+                                            <span><i class="material-icons">add</i></span>
+                                        </div>
+                                        <script>
+                                            $(document).ready(function($) {
+                                                var spins = document.getElementsByClassName("spin2");
+                                                for (var i = 0, len = spins.length; i < len; i++) {
+                                                    var spin = spins[i],
+                                                    span = spin.getElementsByTagName("span"),
+                                                    input = spin.getElementsByTagName("input")[0];
+
+                                                    input.onchange = function() { input.value = +input.value || 1; };
+                                                    span[0].onclick = function() { input.value = Math.max(1, input.value - 1); };
+                                                    span[1].onclick = function() { input.value -= -1; };
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="count-price">$ 132</p>
+                                    </div>
+                                    <button class="close-select">
+                                        <i class="material-icons">close</i>
+                                    </button>
+                                </li>
+                                <li class="row">
+                                    <div class="col-sm-5">
+                                        <img src="assets/img/products/p19.jpg" alt="">
+                                        <a href="detail-product.html">New Colection</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="price">$ 23</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="spin3">
+                                            <span><i class="material-icons">remove</i></span>
+                                            <input value="1" maxlength="2" />
+                                            <span><i class="material-icons">add</i></span>
+                                        </div>
+                                        <script>
+                                            $(document).ready(function($) {
+                                                var spins = document.getElementsByClassName("spin3");
+                                                for (var i = 0, len = spins.length; i < len; i++) {
+                                                    var spin = spins[i],
+                                                    span = spin.getElementsByTagName("span"),
+                                                    input = spin.getElementsByTagName("input")[0];
+
+                                                    input.onchange = function() { input.value = +input.value || 1; };
+                                                    span[0].onclick = function() { input.value = Math.max(1, input.value - 1); };
+                                                    span[1].onclick = function() { input.value -= -1; };
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="count-price">$ 132</p>
+                                    </div>
+                                    <button class="close-select">
+                                        <i class="material-icons">close</i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="total-pay row">
+                            <div class="col-sm-6">
+                                <p>
+                                    <span>Subtotal:</span>
+                                    <span>$ 355</span>
+                                </p>
+                                <p>
+                                    <span>Shipping:</span>
+                                    <span>$ 11</span>
+                                </p>
+                                <p>
+                                    <span>Total:</span>
+                                    <span>$ 366</span>
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <button>Cancel</button>
+                                <button>Place order</button>
+                            </div>
+                            <!-- <div class="col-sm-6">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Collapsible Group Item #1
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Collapsible Group Item #2
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Collapsible Group Item #3
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="container">
+            <a class="logo" href="">
+                <img src="assets/img/yera.png" alt="">
+            </a>
+            <p class="about">Specializes in providing unique<br/>glassware, luxury and limited.</p>
+            <p class="social">You can follow us on <a class="fb" href="">Facebook</a>, <a class="gg" href="">Google</a>, <a class="tw" href="">Twitter</a> & <a class="pin" href="">Pinterest</a></p>
+            <p class="copyright">Copyright 2016 Yera &nbsp; \ &nbsp; Design by Yera &nbsp; \ &nbsp; All rights Reserved</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
